@@ -1,0 +1,4 @@
+../Core/Src/tps.c:8:10:Unpack_VCU_TPS_Limits_TPS	24	static
+../Core/Src/tps.c:17:10:Pack_VCU_TPS_Limits_TPS	32	static
+../Core/Src/tps.c:34:10:Unpack_VCU_TPS_CurrentValue_TPS	24	static
+../Core/Src/tps.c:41:10:Pack_VCU_TPS_CurrentValue_TPS	32	static

@@ -1,0 +1,8 @@
+../Core/Src/TPS_Pack_SOC_Derate.c:54:6:rt_Spline2Derivd	3
+../Core/Src/TPS_Pack_SOC_Derate.c:84:8:look_SplNBinSZd	2
+../Core/Src/TPS_Pack_SOC_Derate.c:109:8:intrp_NSpld	12
+../Core/Src/TPS_Pack_SOC_Derate.c:213:17:plook_binx	3
+../Core/Src/TPS_Pack_SOC_Derate.c:239:17:binsearch_u32d	3
+../Core/Src/TPS_Pack_SOC_Derate.c:263:8:rt_roundd_snf	4
+../Core/Src/TPS_Pack_SOC_Derate.c:282:6:TPS_Pack_SOC_Derate_step	12
+../Core/Src/TPS_Pack_SOC_Derate.c:384:6:TPS_Pack_SOC_Derate_initialize	2

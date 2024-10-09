@@ -1,0 +1,10 @@
+../Core/Src/isolation.c:8:10:Unpack_IMD_Request_isolation	24	static
+../Core/Src/isolation.c:34:10:Pack_IMD_Request_isolation	32	static
+../Core/Src/isolation.c:48:10:Unpack_IMD_Response_isolation	24	static
+../Core/Src/isolation.c:121:10:Pack_IMD_Response_isolation	32	static
+../Core/Src/isolation.c:135:10:Unpack_IMD_Info_isolation	24	static
+../Core/Src/isolation.c:151:10:Pack_IMD_Info_isolation	32	static
+../Core/Src/isolation.c:165:10:Unpack_UDS_IMD_FLASH_REQ_isolation	24	static
+../Core/Src/isolation.c:178:10:Pack_UDS_IMD_FLASH_REQ_isolation	32	static
+../Core/Src/isolation.c:195:10:Unpack_UDS_IMD_FLASH_RESP_isolation	24	static
+../Core/Src/isolation.c:208:10:Pack_UDS_IMD_FLASH_RESP_isolation	32	static

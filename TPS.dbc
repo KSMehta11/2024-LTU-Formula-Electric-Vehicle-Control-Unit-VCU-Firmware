@@ -1,0 +1,55 @@
+VERSION ""
+
+
+NS_ : 
+	NS_DESC_
+	CM_
+	BA_DEF_
+	BA_
+	VAL_
+	CAT_DEF_
+	CAT_
+	FILTER
+	BA_DEF_DEF_
+	EV_DATA_
+	ENVVAR_DATA_
+	SGTYPE_
+	SGTYPE_VAL_
+	BA_DEF_SGTYPE_
+	BA_SGTYPE_
+	SIG_TYPE_REF_
+	VAL_TABLE_
+	SIG_GROUP_
+	SIG_VALTYPE_
+	SIGTYPE_VALTYPE_
+	BO_TX_BU_
+	BA_DEF_REL_
+	BA_REL_
+	BA_DEF_DEF_REL_
+	BU_SG_REL_
+	BU_EV_REL_
+	BU_BO_REL_
+	SG_MUL_VAL_
+
+BS_:
+
+BU_: Vehicle_Control_Unit
+
+
+BO_ 773 VCU_TPS_CurrentValue: 4 Vehicle_Control_Unit
+ SG_ TPS_SecondaryCurrentVal : 16|16@1+ (1,0) [0|65535] "" Vector__XXX
+ SG_ TPS_PrimaryCurrentVal : 0|16@1+ (1,0) [0|65535] "" Vector__XXX
+
+BO_ 772 VCU_TPS_Limits: 8 Vehicle_Control_Unit
+ SG_ TPS_SecondaryMinLimit : 48|16@1+ (1,0) [0|65535] "" Vector__XXX
+ SG_ TPS_SecondaryMaxLimit : 32|16@1+ (1,0) [0|65535] "" Vector__XXX
+ SG_ TPS_PrimaryMinLimit : 16|16@1+ (1,0) [0|65535] "" Vector__XXX
+ SG_ TPS_PrimaryMaxLimit : 0|16@1+ (1,0) [0|65535] "" Vector__XXX
+
+
+
+BA_DEF_  "MultiplexExtEnabled" ENUM  "No","Yes";
+BA_DEF_  "BusType" STRING ;
+BA_DEF_DEF_  "MultiplexExtEnabled" "No";
+BA_DEF_DEF_  "BusType" "CAN";
+

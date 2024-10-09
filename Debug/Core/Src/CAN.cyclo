@@ -1,0 +1,13 @@
+../Core/Src/CAN.c:11:6:initializeCAN	4
+../Core/Src/CAN.c:39:6:sendSync	3
+../Core/Src/CAN.c:67:6:nodeGuarding	3
+../Core/Src/CAN.c:90:6:startNode	3
+../Core/Src/CAN.c:120:6:clearErrors	3
+../Core/Src/CAN.c:160:6:torqueControlMessage	3
+../Core/Src/CAN.c:200:6:configAMSCANFilter	2
+../Core/Src/CAN.c:221:6:configIMDCANFilter	2
+../Core/Src/CAN.c:242:6:configInverterRPMCANFilter	2
+../Core/Src/CAN.c:263:6:configInverterTempCANFilter	2
+../Core/Src/CAN.c:284:6:configBMSDataFilter	2
+../Core/Src/CAN.c:305:6:sendTPSLimits	3
+../Core/Src/CAN.c:331:6:sendTPSCurrentValue	3
